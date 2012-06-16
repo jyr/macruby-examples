@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4EC01B13158D1D3A0052B6BF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EC01B12158D1D390052B6BF /* Cocoa.framework */; };
+		4EC01B15158D1D3A0052B6BF /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EC01B14158D1D3A0052B6BF /* MacRuby.framework */; };
+		4EC01B1E158D1D3A0052B6BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4EC01B1C158D1D3A0052B6BF /* InfoPlist.strings */; };
+		4EC01B20158D1D3A0052B6BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC01B1F158D1D3A0052B6BF /* main.m */; };
+		4EC01B25158D1D3A0052B6BF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EC01B23158D1D3A0052B6BF /* MainMenu.xib */; };
+		4EC01B28158D1D3A0052B6BF /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 4EC01B27158D1D3A0052B6BF /* rb_main.rb */; };
+		4EC01B2A158D1D3A0052B6BF /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 4EC01B29158D1D3A0052B6BF /* AppDelegate.rb */; };
+		4EC01B2D158D1D3B0052B6BF /* Pomodoro.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4EC01B2B158D1D3B0052B6BF /* Pomodoro.xcdatamodeld */; };
+		4EC01B37158D27490052B6BF /* PomodoroController.rb in Resources */ = {isa = PBXBuildFile; fileRef = 4EC01B36158D27490052B6BF /* PomodoroController.rb */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4EC01B17158D1D3A0052B6BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EC01B05158D1D390052B6BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EC01B0D158D1D390052B6BF;
+			remoteInfo = Pomodoro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4EC01B0E158D1D390052B6BF /* Pomodoro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pomodoro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EC01B12158D1D390052B6BF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4EC01B14158D1D3A0052B6BF /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
+		4EC01B1B158D1D3A0052B6BF /* Pomodoro-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pomodoro-Info.plist"; sourceTree = "<group>"; };
+		4EC01B1D158D1D3A0052B6BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4EC01B1F158D1D3A0052B6BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4EC01B21158D1D3A0052B6BF /* Pomodoro-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pomodoro-Prefix.pch"; sourceTree = "<group>"; };
+		4EC01B24158D1D3A0052B6BF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4EC01B27158D1D3A0052B6BF /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		4EC01B29158D1D3A0052B6BF /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+		4EC01B2C158D1D3B0052B6BF /* Pomodoro.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pomodoro.xcdatamodel; sourceTree = "<group>"; };
+		4EC01B36158D27490052B6BF /* PomodoroController.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = PomodoroController.rb; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EC01B0B158D1D390052B6BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EC01B13158D1D3A0052B6BF /* Cocoa.framework in Frameworks */,
+				4EC01B15158D1D3A0052B6BF /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EC01B03158D1D390052B6BF = {
+			isa = PBXGroup;
+			children = (
+				4EC01B19158D1D3A0052B6BF /* Pomodoro */,
+				4EC01B11158D1D390052B6BF /* Frameworks */,
+				4EC01B0F158D1D390052B6BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4EC01B0F158D1D390052B6BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EC01B0E158D1D390052B6BF /* Pomodoro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EC01B11158D1D390052B6BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4EC01B12158D1D390052B6BF /* Cocoa.framework */,
+				4EC01B14158D1D3A0052B6BF /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4EC01B19158D1D3A0052B6BF /* Pomodoro */ = {
+			isa = PBXGroup;
+			children = (
+				4EC01B29158D1D3A0052B6BF /* AppDelegate.rb */,
+				4EC01B2B158D1D3B0052B6BF /* Pomodoro.xcdatamodeld */,
+				4EC01B36158D27490052B6BF /* PomodoroController.rb */,
+				4EC01B22158D1D3A0052B6BF /* Resources */,
+				4EC01B26158D1D3A0052B6BF /* Other Sources */,
+				4EC01B1A158D1D3A0052B6BF /* Supporting Files */,
+			);
+			path = Pomodoro;
+			sourceTree = "<group>";
+		};
+		4EC01B1A158D1D3A0052B6BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4EC01B1B158D1D3A0052B6BF /* Pomodoro-Info.plist */,
+				4EC01B1C158D1D3A0052B6BF /* InfoPlist.strings */,
+				4EC01B1F158D1D3A0052B6BF /* main.m */,
+				4EC01B21158D1D3A0052B6BF /* Pomodoro-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4EC01B22158D1D3A0052B6BF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4EC01B23158D1D3A0052B6BF /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4EC01B26158D1D3A0052B6BF /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4EC01B27158D1D3A0052B6BF /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		4EC01B16158D1D3A0052B6BF /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = 4EC01B33158D1D3B0052B6BF /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+				4EC01B18158D1D3A0052B6BF /* PBXTargetDependency */,
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		4EC01B0D158D1D390052B6BF /* Pomodoro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EC01B30158D1D3B0052B6BF /* Build configuration list for PBXNativeTarget "Pomodoro" */;
+			buildPhases = (
+				4EC01B0A158D1D390052B6BF /* Sources */,
+				4EC01B0B158D1D390052B6BF /* Frameworks */,
+				4EC01B0C158D1D390052B6BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pomodoro;
+			productName = Pomodoro;
+			productReference = 4EC01B0E158D1D390052B6BF /* Pomodoro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EC01B05158D1D390052B6BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 4EC01B08158D1D390052B6BF /* Build configuration list for PBXProject "Pomodoro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4EC01B03158D1D390052B6BF;
+			productRefGroup = 4EC01B0F158D1D390052B6BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EC01B0D158D1D390052B6BF /* Pomodoro */,
+				4EC01B16158D1D3A0052B6BF /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EC01B0C158D1D390052B6BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EC01B1E158D1D3A0052B6BF /* InfoPlist.strings in Resources */,
+				4EC01B25158D1D3A0052B6BF /* MainMenu.xib in Resources */,
+				4EC01B28158D1D3A0052B6BF /* rb_main.rb in Resources */,
+				4EC01B2A158D1D3A0052B6BF /* AppDelegate.rb in Resources */,
+				4EC01B37158D27490052B6BF /* PomodoroController.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EC01B0A158D1D390052B6BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EC01B20158D1D3A0052B6BF /* main.m in Sources */,
+				4EC01B2D158D1D3B0052B6BF /* Pomodoro.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4EC01B18158D1D3A0052B6BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EC01B0D158D1D390052B6BF /* Pomodoro */;
+			targetProxy = 4EC01B17158D1D3A0052B6BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4EC01B1C158D1D3A0052B6BF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EC01B1D158D1D3A0052B6BF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4EC01B23158D1D3A0052B6BF /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EC01B24158D1D3A0052B6BF /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4EC01B2E158D1D3B0052B6BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4EC01B2F158D1D3B0052B6BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4EC01B31158D1D3B0052B6BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pomodoro/Pomodoro-Prefix.pch";
+				INFOPLIST_FILE = "Pomodoro/Pomodoro-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4EC01B32158D1D3B0052B6BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pomodoro/Pomodoro-Prefix.pch";
+				INFOPLIST_FILE = "Pomodoro/Pomodoro-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4EC01B34158D1D3B0052B6BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		4EC01B35158D1D3B0052B6BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EC01B08158D1D390052B6BF /* Build configuration list for PBXProject "Pomodoro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EC01B2E158D1D3B0052B6BF /* Debug */,
+				4EC01B2F158D1D3B0052B6BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EC01B30158D1D3B0052B6BF /* Build configuration list for PBXNativeTarget "Pomodoro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EC01B31158D1D3B0052B6BF /* Debug */,
+				4EC01B32158D1D3B0052B6BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4EC01B33158D1D3B0052B6BF /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EC01B34158D1D3B0052B6BF /* Debug */,
+				4EC01B35158D1D3B0052B6BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4EC01B2B158D1D3B0052B6BF /* Pomodoro.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4EC01B2C158D1D3B0052B6BF /* Pomodoro.xcdatamodel */,
+			);
+			currentVersion = 4EC01B2C158D1D3B0052B6BF /* Pomodoro.xcdatamodel */;
+			path = Pomodoro.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4EC01B05158D1D390052B6BF /* Project object */;
+}
